@@ -1,0 +1,60 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("https://images.search.yahoo.com/images/view;_ylt=AwrNYV6WxMBioEkSdwA2nIlQ;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzQxMDI4M2FiOTc1NDViYzlhMWRlMGY5ZWM3OGUyOTAwBGdwb3MDNQRpdANiaW5n?back=https%3A%2F%2Fimages.search.yahoo.com%2Fyhs%2Fsearch%3Fp%3Dlogin%2Bpage%2Bbackground%26ei%3DUTF-8%26type%3Dasbw_8923_CHW_US_tid20084%26fr%3Dyhs-iba-syn%26fr2%3Dsa-gp-images.search%26hsimp%3Dyhs-syn%26hspart%3Diba%26param1%3DMds5PwcTUEms8sC4h53FGv8iOOfCw%252F4o7%252B%252BUgVrSOtV8gWsLcQCppG3kA2u4mYFI%26param2%3D9dUI1n2R0BLDxNuWfiP4aSFOTltNdSPoIx38%252BUf%252FiXrvPdoGmStdlfwLFZYDvqkAJrWWk4yNReCLnBD%252FqPsDZd7olTZcV8HMx1G%252Fk786sE2Tis1g8dJd8zxVWs%252BbKztBnq1TfqUiqPYK9pXifXmJFyorDuCsYXJE71Y6G5tfejAsA0Lsu%252BhSnWhyvR8yxg3FZCgtpQdgsgtFBnqC22qw1l50OBmhMj9Piwk8xtSX8fOBJv7OOrY%252FGFUeWjn1vQ312tFotkkYM5tXFgcOlUSHsg%253D%253D%26param3%3DNwVEMR%252FzKcG52XsVBYEh2zk2Yklq85vdfspZPoqz2M1qypHRDDTed5vIiOf0QJloIYNIhURx5ygk43IbuWBmnfLApzQNuNyJQuCIFEosygzUObTBvpAdBKtFCFkedGtzXg8BZPONEY8XN9MMyOktFx%252Bs8pZv4INHTSsA1HmSEXDcit%252B55JHeflwBKzGrvzfj%252F2jEfVQUOc3ei8LApzg7qLGqrExM4I8wSLNkq03Dv%252B%252B831r9IspwNchHqf7LAiZW6VMCnNLz5Kzzzj4r9zBttsOLrFh5yCxxNBzcMzcP8QFtRDE6tduZttR9w0rnTcX0wf8%252FAarRYjfpQvWeKe%252Ff1I1vBKWSH68fn2fu6JPq6%252FruiwT%252FuPfP94Z3pg3uNupeJoT5%252FCzL%252FwZcXZw0D0exoRrK4WFJ73Eg77iym7zSKH4%253D%26param4%3Ddp616zbSKW8T6fOmcUECFAmYBAdxnfY6HfeA1%252FVqj9U%253D%26tab%3Dorganic%26ri%3D5&w=1400&h=933&imgurl=toplinemanagement.com%2Fwp-content%2Fuploads%2F2017%2F01%2Ftop-line-management-login-background-1.jpg&rurl=https%3A%2F%2Ftoplinemanagement.com%2Ftop-line-management-login-background-1%2F&size=193.1KB&p=login+page+background&oid=410283ab97545bc9a1de0f9ec78e2900&fr2=sa-gp-images.search&fr=yhs-iba-syn&tt=top-line-management-login-background-1+%7C+Top+Line+Management+%7C+Online+...&b=0&ni=56&no=5&ts=&tab=organic&sigr=Zdcc3IQGZX6w&sigb=KnzODE9.5UnM&sigi=zJZwb2_EiQ9p&sigt=3nknfcSR.MRW&.crumb=ppNQTkCmzpd&fr=yhs-iba-syn&fr2=sa-gp-images.search&hsimp=yhs-syn&hspart=iba&type=asbw_8923_CHW_US_tid20084&param1=Mds5PwcTUEms8sC4h53FGv8iOOfCw%2F4o7%2B%2BUgVrSOtV8gWsLcQCppG3kA2u4mYFI&param2=9dUI1n2R0BLDxNuWfiP4aSFOTltNdSPoIx38%2BUf%2FiXrvPdoGmStdlfwLFZYDvqkAJrWWk4yNReCLnBD%2FqPsDZd7olTZcV8HMx1G%2Fk786sE2Tis1g8dJd8zxVWs%2BbKztBnq1TfqUiqPYK9pXifXmJFyorDuCsYXJE71Y6G5tfejAsA0Lsu%2BhSnWhyvR8yxg3FZCgtpQdgsgtFBnqC22qw1l50OBmhMj9Piwk8xtSX8fOBJv7OOrY%2FGFUeWjn1vQ312tFotkkYM5tXFgcOlUSHsg%3D%3D&param3=NwVEMR%2FzKcG52XsVBYEh2zk2Yklq85vdfspZPoqz2M1qypHRDDTed5vIiOf0QJloIYNIhURx5ygk43IbuWBmnfLApzQNuNyJQuCIFEosygzUObTBvpAdBKtFCFkedGtzXg8BZPONEY8XN9MMyOktFx%2Bs8pZv4INHTSsA1HmSEXDcit%2B55JHeflwBKzGrvzfj%2F2jEfVQUOc3ei8LApzg7qLGqrExM4I8wSLNkq03Dv%2B%2B831r9IspwNchHqf7LAiZW6VMCnNLz5Kzzzj4r9zBttsOLrFh5yCxxNBzcMzcP8QFtRDE6tduZttR9w0rnTcX0wf8%2FAarRYjfpQvWeKe%2Ff1I1vBKWSH68fn2fu6JPq6%2FruiwT%2FuPfP94Z3pg3uNupeJoT5%2FCzL%2FwZcXZw0D0exoRrK4WFJ73Eg77iym7zSKH4%3D&param4=dp616zbSKW8T6fOmcUECFAmYBAdxnfY6HfeA1%2FVqj9U%3D");
+    background-size: cover;
+  }
+  
+  .loginTitle {
+    font-size: 50px;
+  }
+  
+  .loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .loginForm > label {
+    margin: 10px 0;
+  }
+  
+  .loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+  }
+  
+  .loginButton {
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .loginButton:disabled{
+    cursor: not-allowed;
+    background-color: rgb(252, 173, 173);
+  }
+  
+  .loginRegisterButton {
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+  }
