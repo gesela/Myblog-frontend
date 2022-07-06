@@ -13,22 +13,24 @@ import { Context } from "./context/Context";
 function App() {
   const { user ,setUser } = useContext(Context);
   return (
+<>
+<TopBar />
+<Home />
 
     <Routes>
-     <Route element={ <TopBar /> } />
+     {/* <Route element={ <TopBar /> } />
       {/* <Switch> */}
-        <Route exact path="/" element={<Home />}/>
-          
+        {/* <Route exact path="/" element={<Home />}/>
+           */} */}
         
         <Route path="/register" element={user ? <Home /> : <Register />}/>
         <Route path="/login" element={user ? <Home /> : <Login />} />
         <Route path="/write" element={user ? <Write /> : <Register />}/>
         <Route path="/settings" element={user ? <Settings /> : <Register />}/>
-        <Route path="/post/:postId" element=
-          {<Single />} 
-        />
+        <Route path="/post/:postId" element= {<Single />} />
       {/* </Switch> */}
     </Routes>
+    </>
   );
 }
 
