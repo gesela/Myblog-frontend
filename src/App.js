@@ -8,6 +8,7 @@ import Register from "./pages/register/Register";
 import {  Routes, Route} from "react-router-dom";
 import { useContext } from "react";
 import { Context } from "./context/Context";
+import Post from "./components/post/Post";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
 <>
 <TopBar />
 <Home />
+
 
     <Routes>
      {/* <Route element={ <TopBar /> } />
