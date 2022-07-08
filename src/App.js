@@ -25,7 +25,7 @@ function App() {
       {/* <Switch> */}
            */} */}
         <Route exact path="/" element={<Home />}/> 
-        <Route exact path="/posts" element={<Home />}/>
+        <Route path="/posts" element={<Home />}/>
         <Route exact path="/post/:id" element={<Single />}/>
         
         <Route path="/register" element={user ? <Home /> : <Register />}/>

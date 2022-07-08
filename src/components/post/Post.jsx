@@ -28,14 +28,17 @@
 import { Link } from "react-router-dom";
 import "./post.css";
 
-export default function Post() {
+export default function Post({post}) {
   return (
     <div className="post">
+      {post.photo && (
+
       <img
         className="postImg"
-        src="https://thecentraltrend.com/wp-content/uploads/2020/12/cover-for-words-that-bult-me-column-900x598.jpeg"
+        src={post.photo}
         alt=""
       />
+      )}
       <div className="postInfo">
         <div className="postCats">
           <span className="postCat">Music
@@ -49,19 +52,16 @@ export default function Post() {
             </Link> */}
           </span>
         </div>
-        <span className="postTitle">Lorem ipsum dolor sit amet .
+        <span className="postTitle">{post.title}
           {/* <Link to="/post/abc" className="link">
             Lorem ipsum dolor sit amet
           </Link> */}
         </span>
         <hr />
-        <span className="postDate">1 hour ago</span>
+        <span className="postDate">{new Date(post.createdAt).toDateString()}</span>
       </div>
       <p className="postDesc">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda
-        officia architecto deserunt deleniti? Labore ipsum aspernatur magnam
-        fugiat, reprehenderit praesentium blanditiis quos cupiditate ratione
-        atque, exercitationem quibusdam, reiciendis odio laboriosam?
+        {post.desc}
       </p>
     </div>
   );
