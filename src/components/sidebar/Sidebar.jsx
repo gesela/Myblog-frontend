@@ -18,7 +18,7 @@ export default function Sidebar() {
       <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
         <img
-          src="https://tse4.mm.bing.net/th?id=OIP.eqhe4NcgioQKxd9MgtgLSQHaGf&pid=Api&P=0&w=195&h=171.jpeg"
+          src="http://angiemakes.com/wp-content/uploads/2014/09/promo23.jpg"
           alt=""
         />
         <p>
