@@ -13,7 +13,7 @@ import { Context } from "./context/Context";
 
 function App() {
   const { user } = useContext(Context);
-  // user = true
+  // const user = true
   return (
 <>
 <TopBar />
