@@ -72,3 +72,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### My Blog app deployed on aws amplify
 https://main.d2kbqjp59avtb7.amplifyapp.com/
 
+### My Blog app deployed on Netlify
+https://lucky-haupia-46d9b8.netlify.app/
+
